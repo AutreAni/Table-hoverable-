@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #1f2739;
+    font-family: 'Rubik', sans-serif;
+    margin:0;
+}
+
+table {
+    width: 80%;
+    margin:0 auto;
+}
+
+caption h1 {
+    color: #385469;
+    font-weight: 100;
+    font-size: 2.625em;
+    margin:0.381em 0;
+}
+
+caption .yellowTitle{
+    color: #dad540;
+}
+
+caption span {
+    color:#4dc3fa;
+}
+
+caption p {
+    color: #6f2534;
+    font-size: 0.875em;
+}
+
+caption author {
+    font-weight:800;
+    text-transform: uppercase;
+}
+
+table {
+    text-align: left;
+    overflow: hidden;
+
+}
+
+table, th, td {
+    border:2px solid #1f2739;
+    border-collapse: collapse;
+}
+
+thead th{
+    color: #385469;
+    font-weight: 300;
+    padding:0.9375em 0.75em;
+}
+
+
+tbody tr:nth-child(odd){
+    background-color: #313c4e;
+}
+
+tbody tr:nth-child(even){
+    background-color: #2d3447;
+}
+
+tbody tr:hover{
+    background-color: #464a52;
+
+}
+
+tbody th, td{
+    padding:1.125em 0.75em; 
+    font-size: 0.875em;
+    font-weight: 400; 
+}
+
+tbody th {
+    color: #6f2534;
+}
+
+tbody td {
+    color:#9893a1; 
+}
+
+.bottom {
+    background-color: #7f7c21;
+    position: absolute;
+    transform:skew(-35deg);
+    transform-origin:top; 
+}
+.left {
+    position:absolute;
+    background-color: #7f7c21;
+    transform: skewY(-55deg);
+    transform-origin: top;   
+}
+
+.hoverable {
+    background-color:#dad540;
+    transform : translate(10px,-10px);
+    position :relative;
+    box-shadow:-4px 4px  #7f7c21;
+    border:none;
+}
